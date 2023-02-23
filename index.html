@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Custom style CSS -->
+        <link rel="stylesheet" href="assets/custom.css">
+        <link rel="stylesheet" href="assets/bootstrap.css">
+
+        <!-- Bootstrap & Font Awesome-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/9cb3b26686.js" crossorigin="anonymous"></script>
+
+
+        <!-- Scripts for particles.js -->
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+        <script> particlesJS.load('particles-js', 'assets/particles.json', function() {
+            console.log('particles.js configuration loaded');
+            });</script>
+        
+        <!-- jQuery CDN - Slim version (=without AJAX) -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <!-- Popper.JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <!-- Bootstrap JS -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+               $(document).ready(function() {
+               $('#sidebarCollapse').on('click', function() {
+               $('#sidebar').toggleClass('active');
+               });
+               });
+                </script>
+    </head>
+
+    <body id="page-top">
+        <!-- Header -->
+        <header>
+            <div class="particles-js" id="particles-js"></div>
+            <div class="particles-text">
+                <img src="assets/images/logo_orig.png" alt="Image used under license from Shutterstock.com">
+                <p><strong>Welcome to my personal portfolio.</strong></p>
+                <p>A place to find <strong>analysis</strong> and <strong>visualization</strong> techniques to make sense of biological data.<p>
+            </div>
+        </header>
+        <!-- End Header -->
+    </body>
+
+</html>
+
